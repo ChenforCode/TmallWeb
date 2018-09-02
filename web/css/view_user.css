@@ -1,0 +1,26 @@
+.content{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    position: relative;
+    padding-top: 75px;
+}
+.user_item{
+    width: 830px;
+    height: 60px;
+    margin: 5px auto;
+    border: 2px solid gray;
+    border-radius: 8px;
+    transition: all 1s;
+    cursor: pointer;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.user_item:hover{
+    box-shadow: 5px 5px 10px 5px gray;
+    transform: scale(1.05);
+}
+.user_item span{
+    font-family: '幼圆';
+    font-size: 23px;
+}

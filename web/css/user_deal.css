@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 1500px;
+    min-width: 1000px;
+    background: #f2f2f2;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+#bg-image{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    min-width: 1600px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url("../images/bg1.jpg");
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+#header p{
+    position: absolute;
+    top: 15px;
+    right: 230px;
+    font-family: '幼圆';
+    font-size: 23px;
+}
+#header span{
+    position: absolute;
+    top: 15px;
+    right: 350px;
+    font-family: '幼圆';
+    font-size: 23px;
+}
+.head_div{
+    position: absolute;
+    right: 160px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: url("/images/userhead/default_head.jpg") center;
+    background-size: 100% 100%;
+}
+.quit_login{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    font-family: '幼圆';
+    font-size: 23px;
+}
+.goback_index{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-family: '幼圆';
+    font-size: 23px;
+}
+.main_con{
+    width: 1100px;
+    margin: 30px auto;
+    position: relative;
+}
+.main_con span{
+    font-family: '幼圆';
+    font-size: 25px;
+}
+.deal_head{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.deal_id{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.deal_addr{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.deal_goodinfo{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+.deal_price{
+    position: absolute;
+    top: 30px;
+    left: 850px;
+}
+.deal_item{
+    width: 100%;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.deal_id_con{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.deal_addr_con{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.good_info{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 15px;
+    left: 400px;
+}
+.deal_price_con{
+    position: absolute;
+    top: 30px;
+    left: 850px;
+}
+
+
+

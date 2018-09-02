@@ -1,0 +1,44 @@
+.goods_list{
+    width: 90%;
+    min-width: 1500px;
+    margin: 70px auto;
+}
+.good_item{
+    position: relative;
+    background: #f2f2f2;
+    box-shadow: 5px 5px 10px 5px gray;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    display: inline-block;
+    width: 260px;
+    height: 160px;
+    margin-bottom: 30px;
+    margin-right: 19px;
+}
+.pic{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+}
+.good_img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+}
+.good_img:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px 5px gray;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+.info{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+.good_name{
+    font-family: '幼圆';
+    margin-bottom: 15px;
+}

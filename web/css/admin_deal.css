@@ -1,0 +1,75 @@
+.main_con span{
+    font-family: '幼圆';
+    font-size: 25px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    position: relative;
+    padding-top: 75px;
+}
+.view_info{
+    width: 1100px;
+    margin: 0 auto;
+}
+.deal_head{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.deal_id{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.deal_addr{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.deal_goodinfo{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+.deal_price{
+    position: absolute;
+    top: 30px;
+    left: 850px;
+}
+.deal_item{
+    width: 100%;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.deal_item:hover{
+    transform: scale(1.05);
+}
+.deal_id_con{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.deal_addr_con{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.good_info{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 15px;
+    left: 400px;
+}
+.deal_price_con{
+    position: absolute;
+    top: 30px;
+    left: 850px;
+}

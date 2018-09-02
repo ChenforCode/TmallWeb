@@ -1,0 +1,50 @@
+.content{
+    width: 100%;
+    /*100%减去header的75px，再减去padding-top的250px*/
+    height: calc(100% - 225px);
+    background: #f2f2f2;
+    position: relative;
+    padding-top: 150px;
+}
+.info{
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+}
+.del_title{
+    margin-bottom: 20px;
+}
+.info p{
+    font-size: 27px;
+    font-family: '幼圆';
+    margin-bottom: 20px;
+}
+.del_name{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.del_info{
+    margin-top: 30px;
+}
+.del_but{
+    width: 130px;
+    height: 40px;
+    border: cadetblue;
+    background: cadetblue;
+    border-radius: 5px;
+    color: white;
+    font-family: '幼圆';
+    font-size: 23px;
+}
+.del_good_info{
+    width: 500px;
+    font-size: 26px;
+    font-family: '幼圆';
+    margin-top: 30px;
+}
+.del_good_info div{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,19 @@
+.content{
+    width: 100%;
+    /*100%减去header的75px，再减去padding-top的250px*/
+    height: calc(100% - 300px);
+    background: #f2f2f2;
+    position: relative;
+    padding-top: 225px;
+}
+.info{
+    font-size: 30px;
+    font-family: '幼圆';
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    top: 100px;
+}
+.info p{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 1500px;
+    min-width: 1000px;
+    background: #f2f2f2;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+#bg-image{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    min-width: 1600px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url("../images/bg1.jpg");
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+#header span{
+    position: absolute;
+    top: 15px;
+    right: 460px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+#header p{
+    position: absolute;
+    top: 15px;
+    right: 340px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+.head_div{
+    position: absolute;
+    right: 250px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: url("/images/userhead/default_head.jpg") center;
+    background-size: 100% 100%;
+}
+.quit_login{
+    position: absolute;
+    top: 15px;
+    right: 130px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+.view_deal{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: #f2f2f2;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    background-image: url("../images/bg1.jpg");
+    font-size: 20px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+.navigator{
+    width: 1250px;
+    height: 380px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px 5px gray;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.nav_left{
+    z-index: 99999;
+    width: 150px;
+    height: 100%;
+    float: left;
+    background-image: url("../images/bg1.jpg");
+}
+
+.nav_left div{
+    height: 76px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.nav_left p{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    font-family: '幼圆';
+}
+.pic_display{
+    width: 1100px;
+    height: 100%;
+    float: right;
+}
+.phone, .laptop, .pad, .airpod, .camera{
+    width: 890px;
+    height: 320px;
+    padding: 30px;
+}
+.good_1{
+    margin-bottom: 40px;
+}
+.good_1 span{
+    font-size: 30px;
+    font-family: '方正兰亭超细黑简体';
+}
+.re_image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.re_image img{
+    width: 100%;
+    height: 100%;
+}
+.re_image input{
+    border-radius: 10px;
+    width: 50px;
+    height: 90px;
+    opacity: 0.4;
+    font-size: 40px;
+    font-family: 幼圆;
+    transition: all 0.6s;
+    background-color: gray;
+    border-color: gray;
+}
+.rbt{
+     position: absolute;
+     right: 0;
+     top: 140px;
+}
+.lbt{
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+.rbt:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.lbt:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.goods_list{
+    width: 1050px;
+    margin: 0 auto;
+}
+.goods_list p{
+    font-family: '幼圆';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.good_item{
+    position: relative;
+    background: #f2f2f2;
+    box-shadow: 5px 5px 10px 5px gray;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    display: inline-block;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-right: 19px;
+}
+.pic{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 140px;
+    height: 140px;
+}
+.good_img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+}
+.good_img:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px 5px gray;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+.info{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+.good_name{
+    font-family: '幼圆';
+    margin-bottom: 15px;
+}

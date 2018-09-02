@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 1500px;
+    min-width: 1000px;
+    background: #f2f2f2;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+#bg-image{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    min-width: 1600px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url("../images/bg1.jpg");
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+#header p{
+    position: absolute;
+    top: 15px;
+    right: 340px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+#header span{
+    position: absolute;
+    top: 15px;
+    right: 460px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+.head_div{
+    position: absolute;
+    right: 250px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: url("/images/userhead/default_head.jpg") center;
+    background-size: 100% 100%;
+}
+.quit_login{
+    position: absolute;
+    top: 15px;
+    right: 130px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+.view_deal{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: #f2f2f2;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    background-image: url("../images/bg1.jpg");
+    font-size: 20px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+
+.goback_index{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 23px;
+    font-family: '幼圆';
+}
+.main_con{
+    width: 1100px;
+    height: 100%;
+    margin: 50px auto;
+}
+.main_con_left{
+    width: 700px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.detail_title{
+    width: 170px;
+    margin: 20px auto;
+    font-size: 40px;
+    font-family: '方正兰亭超细黑简体';
+    font-weight: bold;
+}
+.good_details{
+    width: 100%;
+    height: 500px;
+    position: relative;;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.pic{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 270px;
+    height: 270px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+.info{
+    position: absolute;
+    right: 20px;
+    top: 110px;
+}
+.info p{
+    display: inline-block;
+    font-size: 26px;
+}
+.info span{
+    font-size: 26px;
+}
+.div_goodname{
+    margin-bottom: 10px;
+}
+.div_goodname p{
+    font-size: 31px;
+    font-family: '幼圆';
+}
+#cart{
+    margin-top: 10px;
+}
+.AddtoCart_bt, .Buynow_bt, .ViewCart_bt{
+    background: cadetblue;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    font-family: '幼圆';
+    border-color: cadetblue;
+    border-radius: 6px;
+}
+.main_con_right{
+    width: 300px;
+    height: 1350px;
+    float: right;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+.view_info{
+    text-align: center;
+    margin-top: 30px;
+}
+.view_justnow{
+    width: 200px;
+    height: 220px;
+    margin: 30px auto;
+}
+.view_justnow img{
+    width: 110px;
+    height: 110px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+
